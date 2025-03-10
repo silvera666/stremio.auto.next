@@ -19,11 +19,6 @@ The extension monitors the current playback time and automatically switches to t
 
 🔧 Installation & Usage
 1️⃣ Download the repository or clone it using:
-
-bash
-Kopyala
-Düzenle
-git clone https://github.com/yourusername/stremio-auto-next.git
 2️⃣ Open Chrome/Brave Extensions (chrome://extensions/).
 3️⃣ Enable Developer Mode and click "Load Unpacked".
 4️⃣ Select the downloaded folder and you're done!
