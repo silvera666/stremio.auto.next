@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Stremio Auto Next",
+  "version": "1.0",
+  "description": "Bölüm bitince otomatik sonraki bölüme geçer.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://web.stremio.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.stremio.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
